@@ -9,7 +9,7 @@ class TestApply {
 object Demo {
   def main(args: Array[String]): Unit = {
     import java.io._
-    val pw = new PrintWriter(new File("hello.txt" ))
+    val pw = new PrintWriter(new File("a.txt" ))
     for( a <- 0 to 20000){
       pw.write(a+"\n")
     }
